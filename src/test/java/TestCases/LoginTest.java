@@ -11,6 +11,7 @@ public class LoginTest extends BaseTestClass {
 
     //int i=0;
     int j = 0;
+    int y = 10;
     
     @Test(dependsOnGroups = "registeration")
     void loginTest() throws InterruptedException
