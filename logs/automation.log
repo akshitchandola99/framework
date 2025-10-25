@@ -1,2 +1,3 @@
-09:14:35.460 [main] INFO  TestCases.BaseTestClass - ********** Starting Test Execution **********
-09:14:46.458 [main] INFO  TestCases.BaseTestClass - ********** Ending Test Execution **********
+11:15:32.267 [main] INFO  TestCases.BaseTestClass - ********** Starting Test Execution **********
+11:15:35.783 [main] INFO  TestCases.BaseTestClass - ********** Starting Registration Test **********
+11:15:46.337 [main] INFO  TestCases.BaseTestClass - ********** Ending Test Execution **********
