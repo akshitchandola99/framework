@@ -1,0 +1,9 @@
+POC/BasePage.class
+TestCases/RegistrationTest.class
+POC/RegistrationPage.class
+Utilities/DataProviders.class
+POC/HomePage.class
+TestCases/LoginTest.class
+TestCases/BaseTestClass.class
+POC/LoginPage.class
+POC/MyAccountPage.class
