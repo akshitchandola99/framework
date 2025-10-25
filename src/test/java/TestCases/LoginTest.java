@@ -9,7 +9,7 @@ import POC.RegistrationPage;
 
 public class LoginTest extends BaseTestClass {
 
-    int i=0;
+    //int i=0;
     
     @Test(dependsOnGroups = "registeration")
     void loginTest() throws InterruptedException
@@ -29,12 +29,13 @@ public class LoginTest extends BaseTestClass {
         //lp.setEmail(p.getProperty("email"));
         //lp.setPassword(p.getProperty("password"));
 
+        //testing with data from registration test
         //if(rp.getEmail()==null || rp.getPassword()==null)
         //{
-            if(i==0)
+            /*if(i==0)
             {
                 throw new SkipException("skipping as email and password not available");
-            }
+            }*/
         //}
 
         lp.setEmail(rp.getEmail());
@@ -61,6 +62,7 @@ public class LoginTest extends BaseTestClass {
 
         Thread.sleep(2000);
         
+        //sa.assertAll();
         sa.assertAll();
 
     }
