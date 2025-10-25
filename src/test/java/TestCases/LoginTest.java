@@ -10,6 +10,7 @@ import POC.RegistrationPage;
 public class LoginTest extends BaseTestClass {
 
     //int i=0;
+    int x=10;
     
     @Test(dependsOnGroups = "registeration")
     void loginTest() throws InterruptedException
