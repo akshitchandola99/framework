@@ -115,6 +115,9 @@ public class BaseTestClass {
             int index = random.nextInt(alphaNumeric.length());
             sb.append(alphaNumeric.charAt(index));
         }
+
         return sb.toString();
+
+        
     }
 }
