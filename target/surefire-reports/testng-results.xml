@@ -2,21 +2,21 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-26T10:07:15 IST" name="MySuite" finished-at="2025-10-26T10:07:29 IST" duration-ms="13877">
+  <suite started-at="2025-10-26T10:13:05 IST" name="MySuite" finished-at="2025-10-26T10:13:19 IST" duration-ms="13626">
     <groups>
       <group name="registeration">
-        <method signature="RegistrationTest.registrationTest()[pri:0, instance:TestCases.RegistrationTest@4ddbbdf8]" name="registrationTest" class="TestCases.RegistrationTest"/>
+        <method signature="RegistrationTest.registrationTest()[pri:0, instance:TestCases.RegistrationTest@768fc0f2]" name="registrationTest" class="TestCases.RegistrationTest"/>
       </group> <!-- registeration -->
     </groups>
-    <test started-at="2025-10-26T10:07:15 IST" name="MyTest" finished-at="2025-10-26T10:07:29 IST" duration-ms="13877">
+    <test started-at="2025-10-26T10:13:05 IST" name="MyTest" finished-at="2025-10-26T10:13:19 IST" duration-ms="13626">
       <class name="TestCases.LoginTest">
-        <test-method signature="loginTest()[pri:0, instance:TestCases.LoginTest@82ea68c]" started-at="2025-10-26T10:07:25 IST" name="loginTest" depends-on-groups="registeration" finished-at="2025-10-26T10:07:29 IST" duration-ms="3922" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:TestCases.LoginTest@1ab06251]" started-at="2025-10-26T10:13:15 IST" name="loginTest" depends-on-groups="registeration" finished-at="2025-10-26T10:13:19 IST" duration-ms="3889" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
       </class> <!-- TestCases.LoginTest -->
       <class name="TestCases.RegistrationTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:TestCases.RegistrationTest@4ddbbdf8]" started-at="2025-10-26T10:07:15 IST" name="setup" finished-at="2025-10-26T10:07:19 IST" duration-ms="3681" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:TestCases.RegistrationTest@768fc0f2]" started-at="2025-10-26T10:13:05 IST" name="setup" finished-at="2025-10-26T10:13:09 IST" duration-ms="3894" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,11 +27,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="registrationTest()[pri:0, instance:TestCases.RegistrationTest@4ddbbdf8]" started-at="2025-10-26T10:07:19 IST" name="registrationTest" finished-at="2025-10-26T10:07:25 IST" duration-ms="6108" status="PASS">
+        <test-method signature="registrationTest()[pri:0, instance:TestCases.RegistrationTest@768fc0f2]" started-at="2025-10-26T10:13:09 IST" name="registrationTest" finished-at="2025-10-26T10:13:15 IST" duration-ms="5635" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registrationTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.RegistrationTest@4ddbbdf8]" started-at="2025-10-26T10:07:29 IST" name="teardown" finished-at="2025-10-26T10:07:29 IST" duration-ms="112" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.RegistrationTest@768fc0f2]" started-at="2025-10-26T10:13:19 IST" name="teardown" finished-at="2025-10-26T10:13:19 IST" duration-ms="114" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
