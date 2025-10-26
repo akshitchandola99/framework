@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script {
                     try {
-                        echo 'Building...'
+                        echo 'Building..'
                         build job: 'Build', waitForStart: true, wait: true
                     } catch (err) {
                         echo "Error in Build stage: ${err}"
@@ -21,7 +21,7 @@ pipeline {
             steps {
                 script {
                     try {
-                        echo 'Deploying...'
+                        echo 'Deploying..'
                         build job: 'Deploy', waitForStart: true, wait: true
                     } catch (err) {
                         echo "Error in Deploy stage: ${err}"
@@ -35,7 +35,7 @@ pipeline {
             steps {
                 script {
                     try {
-                        echo 'Testing...'
+                        echo 'Testing..'
                         build job: 'Test', waitForStart: true, wait: true
                     } catch (err) {
                         echo "Error in Test stage: ${err}"
@@ -48,7 +48,7 @@ pipeline {
             steps {
                 script {
                     try {
-                        echo 'Releasing...'
+                        echo 'Releasing..'
                         build job: 'Release', waitForStart: true, wait: true
                     } catch (err) {
                         echo "Error in Release stage: ${err}"
