@@ -1,5 +1,4 @@
 package TestCases;
-import org.testng.SkipException;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import POC.HomePage;
@@ -10,14 +9,7 @@ import POC.RegistrationPage;
 public class LoginTest extends BaseTestClass {
 
     //int i=0;
-    int x=10;
-    int j = 0;
-<<<<<<< HEAD
-    int z =10;
-=======
-    int y = 10;
->>>>>>> main
-    
+
     @Test(dependsOnGroups = "registeration")
     void loginTest() throws InterruptedException
     {
@@ -68,8 +60,7 @@ public class LoginTest extends BaseTestClass {
         rp.clickSuccessContinue();
 
         Thread.sleep(2000);
-        
-        //sa.assertAll();
+    
         sa.assertAll();
 
     }
