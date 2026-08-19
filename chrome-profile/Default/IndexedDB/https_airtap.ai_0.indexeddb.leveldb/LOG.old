@@ -1,0 +1,25 @@
+2026/08/19-16:41:58.392 414709c Reusing MANIFEST /Users/nowgg/Automation/framework/chrome-profile/Default/IndexedDB/https_airtap.ai_0.indexeddb.leveldb/MANIFEST-000001
+2026/08/19-16:41:58.392 414709c Recovering log #172
+2026/08/19-16:41:58.393 414709c Reusing old log /Users/nowgg/Automation/framework/chrome-profile/Default/IndexedDB/https_airtap.ai_0.indexeddb.leveldb/000172.log 
+2026/08/19-16:41:58.394 414709c Delete type=2 #171
+2026/08/19-16:41:58.424 41470a9 Level-0 table #177: started
+2026/08/19-16:41:58.426 41470a9 Level-0 table #177: 2631 bytes OK
+2026/08/19-16:41:58.428 41470a9 Delete type=0 #172
+2026/08/19-16:41:58.429 414709c Manual compaction at level-0 from '\x007\x00\x00\x00' @ 72057594037927935 : 1 .. '\x008\x00\x00\x00' @ 0 : 0; will stop at '\x007\x00\x00\x05' @ 1900 : 1
+2026/08/19-16:41:58.429 414709c Compacting 1@0 + 1@1 files
+2026/08/19-16:41:58.431 414709c Generated table #178@0: 128 keys, 3675 bytes
+2026/08/19-16:41:58.431 414709c Compacted 1@0 + 1@1 files => 3675 bytes
+2026/08/19-16:41:58.432 414709c compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/08/19-16:41:58.433 414709c Delete type=2 #177
+2026/08/19-16:41:58.433 414709c Manual compaction at level-0 from '\x007\x00\x00\x05' @ 1900 : 1 .. '\x008\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/08/19-16:42:01.310 41470a9 Level-0 table #180: started
+2026/08/19-16:42:01.314 41470a9 Level-0 table #180: 3060 bytes OK
+2026/08/19-16:42:01.316 41470a9 Delete type=0 #176
+2026/08/19-16:42:01.316 41470a9 Delete type=2 #174
+2026/08/19-16:42:01.316 414709c Manual compaction at level-0 from '\x008\x00\x00\x00' @ 72057594037927935 : 1 .. '\x009\x00\x00\x00' @ 0 : 0; will stop at '\x008\x00\x00\x05' @ 1947 : 1
+2026/08/19-16:42:01.316 414709c Compacting 1@0 + 1@1 files
+2026/08/19-16:42:01.317 414709c Generated table #181@0: 128 keys, 2126 bytes
+2026/08/19-16:42:01.317 414709c Compacted 1@0 + 1@1 files => 2126 bytes
+2026/08/19-16:42:01.318 414709c compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/08/19-16:42:01.318 414709c Delete type=2 #180
+2026/08/19-16:42:01.319 414709c Manual compaction at level-0 from '\x008\x00\x00\x05' @ 1947 : 1 .. '\x009\x00\x00\x00' @ 0 : 0; will stop at (end)
