@@ -1,0 +1,11 @@
+[2026-08-25 14:35:39] [DEBUG] [asyncio] [__init__] Using selector: KqueueSelector
+[2026-08-25 14:35:43] [INFO] [conftest] [page] Creating & handing over the page context
+[2026-08-25 14:35:43] [INFO] [conftest] [ensure_logged_in] Navigating to https://airtap.ai/app
+[2026-08-25 14:35:49] [INFO] [conftest] [ensure_logged_in] Landed on https://airtap.ai/app
+[2026-08-25 14:35:49] [INFO] [conftest] [ensure_logged_in] User is logged in
+[2026-08-25 14:35:49] [INFO] [test_task_followup] [test_task_followup] Sending follow-up on the current task
+[2026-08-25 14:35:49] [INFO] [pages.task_page] [enter_follow_up_task] Entering follow-up prompt: 'open device settings'
+[2026-08-25 14:35:56] [INFO] [pages.task_page] [submit_follow_up_task] Submitting follow-up
+[2026-08-25 14:35:59] [INFO] [test_task_followup] [test_task_followup] Waiting for task completion
+[2026-08-25 14:36:09] [INFO] [test_task_followup] [test_task_followup] Follow-up task completed
+[2026-08-25 14:36:09] [INFO] [conftest] [page] Clearing page context

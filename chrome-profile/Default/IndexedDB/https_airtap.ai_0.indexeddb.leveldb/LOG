@@ -1,36 +1,25 @@
-2026/08/19-16:42:58.645 4147b11 Reusing MANIFEST /Users/nowgg/Automation/framework/chrome-profile/Default/IndexedDB/https_airtap.ai_0.indexeddb.leveldb/MANIFEST-000001
-2026/08/19-16:42:58.646 4147b11 Recovering log #179
-2026/08/19-16:42:58.646 4147b11 Reusing old log /Users/nowgg/Automation/framework/chrome-profile/Default/IndexedDB/https_airtap.ai_0.indexeddb.leveldb/000179.log 
-2026/08/19-16:42:58.647 4147b11 Delete type=2 #178
-2026/08/19-16:42:58.682 4147b20 Level-0 table #184: started
-2026/08/19-16:42:58.683 4147b20 Level-0 table #184: 2631 bytes OK
-2026/08/19-16:42:58.685 4147b20 Delete type=0 #179
-2026/08/19-16:42:58.686 4147b0f Manual compaction at level-0 from '\x009\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00:\x00\x00\x00' @ 0 : 0; will stop at '\x009\x00\x00\x05' @ 1992 : 1
-2026/08/19-16:42:58.686 4147b0f Compacting 1@0 + 1@1 files
-2026/08/19-16:42:58.689 4147b0f Generated table #185@0: 128 keys, 3678 bytes
-2026/08/19-16:42:58.689 4147b0f Compacted 1@0 + 1@1 files => 3678 bytes
-2026/08/19-16:42:58.690 4147b0f compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/08/19-16:42:58.690 4147b0f Manual compaction at level-0 from '\x009\x00\x00\x05' @ 1992 : 1 .. '\x00:\x00\x00\x00' @ 0 : 0; will stop at (end)
-2026/08/19-16:42:58.691 4147b0f Level-0 table #187: started
-2026/08/19-16:42:58.693 4147b0f Level-0 table #187: 751 bytes OK
-2026/08/19-16:42:58.694 4147b0f Delete type=2 #181
-2026/08/19-16:42:58.694 4147b0f Delete type=2 #184
-2026/08/19-16:42:58.694 4147b0f Delete type=0 #183
-2026/08/19-16:42:58.696 4147b0f Manual compaction at level-0 from '\x00:\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00;\x00\x00\x00' @ 0 : 0; will stop at '\x00:\x00\x00\x05' @ 2014 : 1
-2026/08/19-16:42:58.696 4147b0f Compacting 1@0 + 1@1 files
-2026/08/19-16:42:58.698 4147b0f Generated table #188@0: 129 keys, 3620 bytes
-2026/08/19-16:42:58.698 4147b0f Compacted 1@0 + 1@1 files => 3620 bytes
-2026/08/19-16:42:58.699 4147b0f compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/08/19-16:42:58.700 4147b0f Delete type=2 #187
-2026/08/19-16:42:58.700 4147b0f Manual compaction at level-0 from '\x00:\x00\x00\x05' @ 2014 : 1 .. '\x00;\x00\x00\x00' @ 0 : 0; will stop at (end)
-2026/08/19-16:43:02.085 4147b20 Level-0 table #190: started
-2026/08/19-16:43:02.087 4147b20 Level-0 table #190: 3420 bytes OK
-2026/08/19-16:43:02.090 4147b20 Delete type=2 #185
-2026/08/19-16:43:02.090 4147b20 Delete type=0 #186
-2026/08/19-16:43:02.090 4147b0f Manual compaction at level-0 from '\x00;\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00<\x00\x00\x00' @ 0 : 0; will stop at '\x00;\x00\x00\x05' @ 2058 : 1
-2026/08/19-16:43:02.090 4147b0f Compacting 1@0 + 1@1 files
-2026/08/19-16:43:02.091 4147b0f Generated table #191@0: 129 keys, 2047 bytes
-2026/08/19-16:43:02.091 4147b0f Compacted 1@0 + 1@1 files => 2047 bytes
-2026/08/19-16:43:02.093 4147b0f compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/08/19-16:43:02.093 4147b0f Delete type=2 #190
-2026/08/19-16:43:02.093 4147b0f Manual compaction at level-0 from '\x00;\x00\x00\x05' @ 2058 : 1 .. '\x00<\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/08/25-14:35:47.707 2e798b Reusing MANIFEST /Users/nowgg/Automation/framework/chrome-profile/Default/IndexedDB/https_airtap.ai_0.indexeddb.leveldb/MANIFEST-000001
+2026/08/25-14:35:47.708 2e798b Recovering log #869
+2026/08/25-14:35:47.709 2e798b Reusing old log /Users/nowgg/Automation/framework/chrome-profile/Default/IndexedDB/https_airtap.ai_0.indexeddb.leveldb/000869.log 
+2026/08/25-14:35:47.709 2e798b Delete type=2 #868
+2026/08/25-14:35:47.727 2e79dd Level-0 table #874: started
+2026/08/25-14:35:47.729 2e79dd Level-0 table #874: 5415 bytes OK
+2026/08/25-14:35:47.731 2e79dd Delete type=0 #869
+2026/08/25-14:35:47.733 2e79dd Manual compaction at level-0 from ' \x01\x01\x00\x00\x00' @ 72057594037927935 : 1 .. ' \x02\x01\x00\x00\x00' @ 0 : 0; will stop at ' \x01\x01\x00\x00\x05' @ 10993 : 1
+2026/08/25-14:35:47.734 2e79dd Compacting 1@0 + 1@1 files
+2026/08/25-14:35:47.737 2e79dd Generated table #875@0: 59 keys, 2752 bytes
+2026/08/25-14:35:47.737 2e79dd Compacted 1@0 + 1@1 files => 2752 bytes
+2026/08/25-14:35:47.738 2e79dd compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/08/25-14:35:47.739 2e79dd Delete type=2 #874
+2026/08/25-14:35:47.739 2e798b Manual compaction at level-0 from ' \x01\x01\x00\x00\x05' @ 10993 : 1 .. ' \x02\x01\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/08/25-14:35:47.739 2e798b Level-0 table #877: started
+2026/08/25-14:35:47.740 2e798b Level-0 table #877: 769 bytes OK
+2026/08/25-14:35:47.742 2e798b Delete type=0 #873
+2026/08/25-14:35:47.742 2e798b Delete type=2 #871
+2026/08/25-14:35:47.742 2e798b Manual compaction at level-0 from ' \x02\x01\x00\x00\x00' @ 72057594037927935 : 1 .. ' \x03\x01\x00\x00\x00' @ 0 : 0; will stop at ' \x02\x01\x00\x00\x05' @ 11015 : 1
+2026/08/25-14:35:47.742 2e798b Compacting 1@0 + 1@1 files
+2026/08/25-14:35:47.743 2e798b Generated table #878@0: 63 keys, 2665 bytes
+2026/08/25-14:35:47.743 2e798b Compacted 1@0 + 1@1 files => 2665 bytes
+2026/08/25-14:35:47.744 2e798b compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/08/25-14:35:47.744 2e798b Delete type=2 #877
+2026/08/25-14:35:47.745 2e798b Manual compaction at level-0 from ' \x02\x01\x00\x00\x05' @ 11015 : 1 .. ' \x03\x01\x00\x00\x00' @ 0 : 0; will stop at (end)
