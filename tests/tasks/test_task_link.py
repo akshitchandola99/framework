@@ -8,7 +8,7 @@ from config.settings import TASK_URL_PATTERN
 log = logging.getLogger(__name__)
 
 
-def test_task_url(page):
+def test_task_link(page,go_to_task_page):
     log.info("Checking task URL: %s", page.url)
     expect(page).to_have_url(re.compile(TASK_URL_PATTERN))
     log.info("Task URL is valid")

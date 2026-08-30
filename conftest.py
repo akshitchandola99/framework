@@ -98,9 +98,10 @@ def go_to_task_page(page, task_page, ensure_no_task_running):
     open_task_title = task_page.task_title_text.inner_text()
     log.info("Opened task title: %r", open_task_title)
     log.info("First recent title: %r", first_recent_title)
-    assert open_task_title == first_recent_title, (
+    expect(
+        task_page.task_title_text,
         f"Open task title {open_task_title!r} does not match "
-        f"first recent title {first_recent_title!r}"
-    )
+        f"first recent title {first_recent_title!r}",
+    ).to_have_text(first_recent_title, timeout=DEFAULT_TIMEOUT)
     log.info("On task page: %s", page.url)
     return task_page

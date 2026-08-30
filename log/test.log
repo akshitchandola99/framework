@@ -1,23 +1,21 @@
-[2026-08-29 11:41:29] [DEBUG] [asyncio] [__init__] Using selector: KqueueSelector
-[2026-08-29 11:41:34] [INFO] [conftest] [page] Creating & handing over the page context
-[2026-08-29 11:41:34] [INFO] [conftest] [ensure_logged_in] Navigating to https://airtap.ai/app
-[2026-08-29 11:41:34] [INFO] [conftest] [ensure_logged_in] Landed on https://airtap.ai/app
-[2026-08-29 11:41:34] [INFO] [conftest] [ensure_logged_in] User is logged in
-[2026-08-29 11:41:34] [INFO] [conftest] [ensure_logged_in] Session ready at home: https://airtap.ai/app
-[2026-08-29 11:41:34] [INFO] [conftest] [ensure_no_task_running] Ensuring no task is running before test
-[2026-08-29 11:41:34] [INFO] [pages.base_page] [ensure_no_running_task] Checking if a task is already running
-[2026-08-29 11:41:34] [INFO] [pages.base_page] [ensure_no_running_task] No running task found
-[2026-08-29 11:41:34] [INFO] [conftest] [go_to_home_page] Already on home: https://airtap.ai/app
-[2026-08-29 11:41:34] [INFO] [conftest] [go_to_home_page] Currently at home screen: https://airtap.ai/app
-[2026-08-29 11:41:34] [INFO] [tests.auth.test_auth_user_details] [test_task_user_details] Checking user name and email in the user menu
-[2026-08-29 11:41:34] [INFO] [pages.base_page] [get_user_details] Reading user name and email from the user menu
-[2026-08-29 11:41:35] [INFO] [pages.base_page] [get_user_details] User name: 'airtap'
-[2026-08-29 11:41:35] [INFO] [pages.base_page] [get_user_details] User email: 'airtap.qa@gmail.com'
-[2026-08-29 11:41:35] [INFO] [tests.auth.test_auth_user_details] [test_task_user_details] Asserting user name is non-empty
-[2026-08-29 11:41:35] [INFO] [tests.auth.test_auth_user_details] [test_task_user_details] Asserting user email contains @ and .com
-[2026-08-29 11:41:35] [INFO] [tests.auth.test_auth_user_details] [test_task_user_details] Verifying user name is visible in the menu
-[2026-08-29 11:41:35] [INFO] [tests.auth.test_auth_user_details] [test_task_user_details] Verifying user email is visible in the menu
-[2026-08-29 11:41:35] [INFO] [tests.auth.test_auth_user_details] [test_task_user_details] Cross-checking user name against the home greeting
-[2026-08-29 11:41:35] [INFO] [tests.auth.test_auth_user_details] [test_task_user_details] Greeting heading: 'Hello airtap,'
-[2026-08-29 11:41:35] [INFO] [tests.auth.test_auth_user_details] [test_task_user_details] User details verified: name='airtap', email='airtap.qa@gmail.com'
-[2026-08-29 11:41:35] [INFO] [conftest] [page] Clearing page context
+[2026-08-30 11:10:43] [DEBUG] [asyncio] [__init__] Using selector: KqueueSelector
+[2026-08-30 11:10:46] [INFO] [conftest] [page] Creating & handing over the page context
+[2026-08-30 11:10:46] [INFO] [conftest] [ensure_logged_in] Navigating to https://airtap.ai/app
+[2026-08-30 11:10:46] [INFO] [conftest] [ensure_logged_in] Landed on https://airtap.ai/app
+[2026-08-30 11:10:46] [INFO] [conftest] [ensure_logged_in] User is logged in
+[2026-08-30 11:10:46] [INFO] [conftest] [ensure_logged_in] Session ready at home: https://airtap.ai/app
+[2026-08-30 11:10:46] [INFO] [conftest] [ensure_no_task_running] Ensuring no task is running before test
+[2026-08-30 11:10:46] [INFO] [pages.base_page] [ensure_no_running_task] Checking if a task is already running
+[2026-08-30 11:10:46] [INFO] [pages.base_page] [ensure_no_running_task] No running task found
+[2026-08-30 11:10:46] [INFO] [conftest] [go_to_home_page] Already on home: https://airtap.ai/app
+[2026-08-30 11:10:46] [INFO] [conftest] [go_to_home_page] Currently at home screen: https://airtap.ai/app
+[2026-08-30 11:10:46] [INFO] [tests.auth.test_auth_user_details] [test_task_user_details] Checking user name and email in the user menu
+[2026-08-30 11:10:46] [INFO] [pages.base_page] [get_user_details] Checking for user details
+[2026-08-30 11:10:47] [INFO] [tests.auth.test_auth_user_details] [test_task_user_details] Asserting user name is non-empty
+[2026-08-30 11:10:47] [INFO] [tests.auth.test_auth_user_details] [test_task_user_details] Asserting user email contains @ and .com
+[2026-08-30 11:10:47] [INFO] [tests.auth.test_auth_user_details] [test_task_user_details] Verifying user name is visible in the menu
+[2026-08-30 11:10:47] [INFO] [tests.auth.test_auth_user_details] [test_task_user_details] Verifying user email is visible in the menu
+[2026-08-30 11:10:47] [INFO] [tests.auth.test_auth_user_details] [test_task_user_details] Cross-checking user name against the home greeting
+[2026-08-30 11:10:47] [INFO] [tests.auth.test_auth_user_details] [test_task_user_details] Greeting heading: 'Hello airtap,'
+[2026-08-30 11:10:47] [INFO] [tests.auth.test_auth_user_details] [test_task_user_details] User details verified: name='airtap', email='airtap.qa@gmail.com'
+[2026-08-30 11:10:47] [INFO] [conftest] [page] Clearing page context

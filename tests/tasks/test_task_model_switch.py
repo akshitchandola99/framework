@@ -7,7 +7,7 @@ from config.settings import DEFAULT_TIMEOUT
 log = logging.getLogger(__name__)
 
 
-def test_model_switch(go_to_task_page):
+def test_task_model_switch(go_to_task_page):
     log.info("Switching the task model")
     default_model, new_model = go_to_task_page.switch_model()
 

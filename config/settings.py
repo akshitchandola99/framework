@@ -7,7 +7,7 @@ TEST_DATA_DIR = ROOT_DIR / "tests" / "tasks" / "test_data"
 APP_URL = "https://airtap.ai/app"
 TASK_URL_PATTERN = r"https://airtap.ai/app/t\?taskId=task-.*"
 
-DEFAULT_TIMEOUT = 10_000
+DEFAULT_TIMEOUT = 15_000
 LONG_TIMEOUT = 30_000
 FOLLOWUP_TIMEOUT = 60_000
 

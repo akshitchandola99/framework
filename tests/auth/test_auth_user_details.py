@@ -5,7 +5,7 @@ from playwright.sync_api import expect
 log = logging.getLogger(__name__)
 
 
-def test_task_user_details(go_to_home_page):
+def test_auth_user_details(go_to_home_page):
     log.info("Checking user name and email in the user menu")
 
     user_name, user_email = go_to_home_page.get_user_details()
