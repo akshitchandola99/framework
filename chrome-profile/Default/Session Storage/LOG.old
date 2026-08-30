@@ -1,3 +1,2 @@
-2026/08/25-14:34:32.286 2e6b40 Reusing MANIFEST /Users/nowgg/Automation/framework/chrome-profile/Default/Session Storage/MANIFEST-000001
-2026/08/25-14:34:32.288 2e6b40 Recovering log #3
-2026/08/25-14:34:32.289 2e6b40 Reusing old log /Users/nowgg/Automation/framework/chrome-profile/Default/Session Storage/000003.log 
+2026/08/29-10:42:58.967 6468cc Creating DB /Users/nowgg/Automation/framework/chrome-profile/Default/Session Storage since it was missing.
+2026/08/29-10:42:58.993 6468cc Reusing MANIFEST /Users/nowgg/Automation/framework/chrome-profile/Default/Session Storage/MANIFEST-000001

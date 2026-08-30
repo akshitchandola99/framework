@@ -1,19 +1,20 @@
-from pages.task_page import TaskPage
-import pytest
-from playwright.sync_api import expect 
-
 import logging
+import re
 
+from playwright.sync_api import expect
+
+from config.settings import FOLLOWUP_TIMEOUT, TASK_URL_PATTERN
 
 log = logging.getLogger(__name__)
 
-@pytest.mark.order(5)
-def test_task_followup(page):
+
+def test_task_followup(page, go_to_task_page):
     log.info("Sending follow-up on the current task")
-    tp = TaskPage(page)
-    tp.enter_follow_up_task(task = "open device settings")
-    tp.submit_follow_up_task()
-    log.info("Waiting for task completion")
-    expect(tp.task_completed_txt).to_be_visible(timeout=60_000)
-    log.info("Follow-up task completed")
-    
+    expect(page).to_have_url(re.compile(TASK_URL_PATTERN))
+    go_to_task_page.wait_for_follow_up_ready()
+
+    go_to_task_page.enter_follow_up_task(task="open device settings")
+    go_to_task_page.submit_follow_up_task()
+    go_to_task_page.wait_for_task_completed(timeout=FOLLOWUP_TIMEOUT)
+    expect(page).to_have_url(re.compile(TASK_URL_PATTERN))
+    log.info("Follow-up completed on the same task URL")

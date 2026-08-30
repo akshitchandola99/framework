@@ -1,21 +1,18 @@
 import logging
+import re
+
 from playwright.sync_api import expect
-from pages.base_page import BasePage
-from pages.task_page import TaskPage
-import pytest
+
+from config.settings import DEFAULT_TIMEOUT, LONG_TIMEOUT, TASK_URL_PATTERN
 
 log = logging.getLogger(__name__)
 
-@pytest.mark.order(3)
-def test_task_execution(page):
+
+def test_task_execution(page, go_to_home_page, task_page):
     log.info("Starting a new task from the composer")
-    bp = BasePage(page)
-    bp.enter_task(task="Hey, how are you doing today?")
-    bp.submit_task()
+    go_to_home_page.enter_task(task="Hey, how are you doing today?")
+    go_to_home_page.submit_task()
 
-    tp = TaskPage(page)
-    log.info("Waiting for task completion")
-    expect(tp.task_completed_txt).to_be_visible(timeout=10_000)
-    log.info("Task completed")
-
-
+    log.info("Checking task URL after submit")
+    expect(page).to_have_url(re.compile(TASK_URL_PATTERN), timeout=DEFAULT_TIMEOUT)
+    task_page.wait_for_task_completed(timeout=LONG_TIMEOUT)
