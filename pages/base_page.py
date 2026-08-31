@@ -32,6 +32,8 @@ class BasePage:
             "heading", name=re.compile(r"^Hello\s.+")
         )
         self.greeting_text_msg = page.get_by_text("What can I do for you today?")
+        self.session_restoring_msg = page.get_by_text("Restoring your Airtap session…")
+        self.airtap_logo = page.get_by_role("img", name="Airtap logo")
         self.user_details = page.get_by_role("button", name="Open user menu").locator("p")
         self.user_name = self.user_details.first
         self.user_email = self.user_details.nth(1)
@@ -77,13 +79,15 @@ class BasePage:
 
     def ensure_no_running_task(self):
         log.info("Checking if a task is already running")
-
-        try:
-            self.stop_task_button.wait_for(state="visible")
+        if self.stop_task_button.is_visible():
             log.info("A task is already running; stopping it first")
             self.stop_task()
-        except TimeoutError:
+        else:
             log.info("No running task found")
+
+    def wait_for_recent_tasks(self, timeout=DEFAULT_TIMEOUT):
+        log.info("Waiting for recent tasks to load")
+        expect(self.recent_task_titles_text.first).to_be_visible(timeout=timeout)
 
     def get_recent_titles(self, limit=None):
         titles = self.recent_task_titles_text.all_inner_texts()

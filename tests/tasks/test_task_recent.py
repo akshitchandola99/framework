@@ -8,8 +8,10 @@ from config.settings import DEFAULT_TIMEOUT, TASK_URL_PATTERN
 log = logging.getLogger(__name__)
 
 
+# Verifies opening the first recent task shows the matching task title.
 def test_task_recent(page, go_to_home_page, task_page):
     log.info("Reading recent task titles")
+    go_to_home_page.wait_for_recent_tasks()
 
     recent_count = go_to_home_page.recent_task_titles_text.count()
     log.info("Total recent tasks: %s", recent_count)

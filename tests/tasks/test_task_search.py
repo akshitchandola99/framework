@@ -5,11 +5,13 @@ from playwright.sync_api import expect
 log = logging.getLogger(__name__)
 
 
+# Verifies searching recent tasks returns only titles matching the search text.
 def test_task_search(go_to_home_page):
     log.info("Searching recent tasks")
     search_input = "Greeting"
 
     go_to_home_page.search_task(search_input)
+    go_to_home_page.wait_for_recent_tasks()
 
     recent_count = go_to_home_page.recent_task_titles_text.count()
     log.info("Search input: %r", search_input)

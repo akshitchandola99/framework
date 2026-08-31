@@ -5,6 +5,7 @@ from playwright.sync_api import expect
 log = logging.getLogger(__name__)
 
 
+# Verifies the logged-in user's name and email appear correctly in the menu and greeting.
 def test_auth_user_details(go_to_home_page):
     log.info("Checking user name and email in the user menu")
 

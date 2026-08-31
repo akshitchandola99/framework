@@ -10,11 +10,11 @@ airtap-pw-suite/
 ├── config/
 │   └── settings.py                  # base URLs, timeouts, env-driven config
 │
-├── fixtures/
-│   ├── files/                       # committed test fixtures (never machine-local paths)
-│   │   ├── sample_image.png
-│   │   └── sample_audio.wav
-│   └── api_client.py                # thin API helper: poll task status, create/revoke PAT, etc.
+├── test_data/                       # committed test files (never machine-local paths)
+│   ├── sample.jpg
+│   ├── sample.png
+│   ├── sample.pdf
+│   └── sample.xlsx
 │
 ├── pages/                           # Page Object Model — one class per screen
 │   ├── base_page.py

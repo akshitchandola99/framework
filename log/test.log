@@ -1,21 +1,147 @@
-[2026-08-30 11:10:43] [DEBUG] [asyncio] [__init__] Using selector: KqueueSelector
-[2026-08-30 11:10:46] [INFO] [conftest] [page] Creating & handing over the page context
-[2026-08-30 11:10:46] [INFO] [conftest] [ensure_logged_in] Navigating to https://airtap.ai/app
-[2026-08-30 11:10:46] [INFO] [conftest] [ensure_logged_in] Landed on https://airtap.ai/app
-[2026-08-30 11:10:46] [INFO] [conftest] [ensure_logged_in] User is logged in
-[2026-08-30 11:10:46] [INFO] [conftest] [ensure_logged_in] Session ready at home: https://airtap.ai/app
-[2026-08-30 11:10:46] [INFO] [conftest] [ensure_no_task_running] Ensuring no task is running before test
-[2026-08-30 11:10:46] [INFO] [pages.base_page] [ensure_no_running_task] Checking if a task is already running
-[2026-08-30 11:10:46] [INFO] [pages.base_page] [ensure_no_running_task] No running task found
-[2026-08-30 11:10:46] [INFO] [conftest] [go_to_home_page] Already on home: https://airtap.ai/app
-[2026-08-30 11:10:46] [INFO] [conftest] [go_to_home_page] Currently at home screen: https://airtap.ai/app
-[2026-08-30 11:10:46] [INFO] [tests.auth.test_auth_user_details] [test_task_user_details] Checking user name and email in the user menu
-[2026-08-30 11:10:46] [INFO] [pages.base_page] [get_user_details] Checking for user details
-[2026-08-30 11:10:47] [INFO] [tests.auth.test_auth_user_details] [test_task_user_details] Asserting user name is non-empty
-[2026-08-30 11:10:47] [INFO] [tests.auth.test_auth_user_details] [test_task_user_details] Asserting user email contains @ and .com
-[2026-08-30 11:10:47] [INFO] [tests.auth.test_auth_user_details] [test_task_user_details] Verifying user name is visible in the menu
-[2026-08-30 11:10:47] [INFO] [tests.auth.test_auth_user_details] [test_task_user_details] Verifying user email is visible in the menu
-[2026-08-30 11:10:47] [INFO] [tests.auth.test_auth_user_details] [test_task_user_details] Cross-checking user name against the home greeting
-[2026-08-30 11:10:47] [INFO] [tests.auth.test_auth_user_details] [test_task_user_details] Greeting heading: 'Hello airtap,'
-[2026-08-30 11:10:47] [INFO] [tests.auth.test_auth_user_details] [test_task_user_details] User details verified: name='airtap', email='airtap.qa@gmail.com'
-[2026-08-30 11:10:47] [INFO] [conftest] [page] Clearing page context
+[2026-08-31 10:37:02] [DEBUG] [asyncio] [__init__] Using selector: KqueueSelector
+[2026-08-31 10:37:04] [INFO] [conftest] [page] Creating & handing over the page context
+[2026-08-31 10:37:04] [INFO] [conftest] [ensure_logged_in] Navigating to https://airtap.ai/app
+[2026-08-31 10:37:04] [INFO] [conftest] [ensure_logged_in] Landed on https://airtap.ai/app
+[2026-08-31 10:37:04] [INFO] [conftest] [ensure_logged_in] User is logged in
+[2026-08-31 10:37:04] [INFO] [conftest] [ensure_logged_in] Session ready at home: https://airtap.ai/app
+[2026-08-31 10:37:04] [INFO] [conftest] [ensure_no_task_running] Ensuring no task is running before test
+[2026-08-31 10:37:04] [INFO] [pages.base_page] [ensure_no_running_task] Checking if a task is already running
+[2026-08-31 10:37:04] [INFO] [pages.base_page] [ensure_no_running_task] No running task found
+[2026-08-31 10:37:04] [INFO] [conftest] [go_to_home_page] Already on home: https://airtap.ai/app
+[2026-08-31 10:37:04] [INFO] [conftest] [go_to_home_page] Currently at home screen: https://airtap.ai/app
+[2026-08-31 10:37:04] [INFO] [tests.auth.test_auth_reload] [test_auth_reload] Reloading page
+[2026-08-31 10:37:05] [INFO] [tests.auth.test_auth_reload] [test_auth_reload] Reload successful
+[2026-08-31 10:37:05] [INFO] [conftest] [ensure_no_task_running] Ensuring no task is running before test
+[2026-08-31 10:37:05] [INFO] [pages.base_page] [ensure_no_running_task] Checking if a task is already running
+[2026-08-31 10:37:05] [INFO] [pages.base_page] [ensure_no_running_task] No running task found
+[2026-08-31 10:37:05] [INFO] [conftest] [go_to_home_page] Already on home: https://airtap.ai/app
+[2026-08-31 10:37:05] [INFO] [conftest] [go_to_home_page] Currently at home screen: https://airtap.ai/app
+[2026-08-31 10:37:05] [INFO] [tests.auth.test_auth_session_restore] [test_auth_session_restore] Reloading page to trigger session restore
+[2026-08-31 10:37:05] [INFO] [tests.auth.test_auth_session_restore] [test_auth_session_restore] Checking session restoring message is shown
+[2026-08-31 10:37:05] [INFO] [tests.auth.test_auth_session_restore] [test_auth_session_restore] Waiting for session restore to complete
+[2026-08-31 10:37:06] [INFO] [tests.auth.test_auth_session_restore] [test_auth_session_restore] Session restored successfully at https://airtap.ai/app
+[2026-08-31 10:37:06] [INFO] [conftest] [ensure_no_task_running] Ensuring no task is running before test
+[2026-08-31 10:37:06] [INFO] [pages.base_page] [ensure_no_running_task] Checking if a task is already running
+[2026-08-31 10:37:06] [INFO] [pages.base_page] [ensure_no_running_task] No running task found
+[2026-08-31 10:37:06] [INFO] [conftest] [go_to_home_page] Already on home: https://airtap.ai/app
+[2026-08-31 10:37:06] [INFO] [conftest] [go_to_home_page] Currently at home screen: https://airtap.ai/app
+[2026-08-31 10:37:06] [INFO] [tests.auth.test_auth_user_details] [test_auth_user_details] Checking user name and email in the user menu
+[2026-08-31 10:37:06] [INFO] [pages.base_page] [get_user_details] Checking for user details
+[2026-08-31 10:37:06] [INFO] [tests.auth.test_auth_user_details] [test_auth_user_details] Asserting user name is non-empty
+[2026-08-31 10:37:06] [INFO] [tests.auth.test_auth_user_details] [test_auth_user_details] Asserting user email contains @ and .com
+[2026-08-31 10:37:06] [INFO] [tests.auth.test_auth_user_details] [test_auth_user_details] Verifying user name is visible in the menu
+[2026-08-31 10:37:06] [INFO] [tests.auth.test_auth_user_details] [test_auth_user_details] Verifying user email is visible in the menu
+[2026-08-31 10:37:06] [INFO] [tests.auth.test_auth_user_details] [test_auth_user_details] Cross-checking user name against the home greeting
+[2026-08-31 10:37:06] [INFO] [tests.auth.test_auth_user_details] [test_auth_user_details] Greeting heading: 'Hello airtap,'
+[2026-08-31 10:37:06] [INFO] [tests.auth.test_auth_user_details] [test_auth_user_details] User details verified: name='airtap', email='airtap.qa@gmail.com'
+[2026-08-31 10:37:06] [INFO] [conftest] [ensure_no_task_running] Ensuring no task is running before test
+[2026-08-31 10:37:06] [INFO] [pages.base_page] [ensure_no_running_task] Checking if a task is already running
+[2026-08-31 10:37:06] [INFO] [pages.base_page] [ensure_no_running_task] No running task found
+[2026-08-31 10:37:06] [INFO] [conftest] [go_to_home_page] Already on home: https://airtap.ai/app
+[2026-08-31 10:37:06] [INFO] [conftest] [go_to_home_page] Currently at home screen: https://airtap.ai/app
+[2026-08-31 10:37:06] [INFO] [tests.tasks.test_task_attachment] [test_task_attachments] Starting a new task with attachments
+[2026-08-31 10:37:06] [INFO] [pages.base_page] [create_new_task] Tapping 'Create new Task' button
+[2026-08-31 10:37:06] [INFO] [pages.base_page] [attach_files] Attaching files [PosixPath('/Users/nowgg/Automation/framework/test_data/sample.jpg'), PosixPath('/Users/nowgg/Automation/framework/test_data/sample.pdf'), PosixPath('/Users/nowgg/Automation/framework/test_data/sample.png'), PosixPath('/Users/nowgg/Automation/framework/test_data/sample.xlsx')]
+[2026-08-31 10:37:06] [INFO] [pages.base_page] [enter_task] Entering task prompt: 'what type of files are these?'
+[2026-08-31 10:37:06] [INFO] [tests.tasks.test_task_attachment] [test_task_attachments] Waiting for invalid attachment message
+[2026-08-31 10:37:06] [INFO] [pages.base_page] [submit_task] Submitting task
+[2026-08-31 10:37:20] [INFO] [pages.task_page] [wait_for_task_completed] Waiting for task completion
+[2026-08-31 10:37:27] [INFO] [pages.task_page] [wait_for_task_completed] Task completed
+[2026-08-31 10:37:27] [INFO] [conftest] [ensure_no_task_running] Ensuring no task is running before test
+[2026-08-31 10:37:27] [INFO] [pages.base_page] [ensure_no_running_task] Checking if a task is already running
+[2026-08-31 10:37:27] [INFO] [pages.base_page] [ensure_no_running_task] No running task found
+[2026-08-31 10:37:27] [INFO] [conftest] [go_to_home_page] Navigating to home from https://airtap.ai/app/t?taskId=task-7PWmK2IFjKaUxEekTiC0c -> https://airtap.ai/app
+[2026-08-31 10:37:27] [INFO] [conftest] [go_to_home_page] Currently at home screen: https://airtap.ai/app
+[2026-08-31 10:37:27] [INFO] [tests.tasks.test_task_execution] [test_task_execution] Starting a new task from the composer
+[2026-08-31 10:37:27] [INFO] [pages.base_page] [enter_task] Entering task prompt: 'Hey, how are you doing today?'
+[2026-08-31 10:37:28] [INFO] [pages.base_page] [submit_task] Submitting task
+[2026-08-31 10:37:29] [INFO] [tests.tasks.test_task_execution] [test_task_execution] Checking task URL after submit
+[2026-08-31 10:37:30] [INFO] [pages.task_page] [wait_for_task_completed] Waiting for task completion
+[2026-08-31 10:37:54] [INFO] [pages.task_page] [wait_for_task_completed] Task completed
+[2026-08-31 10:37:54] [INFO] [conftest] [ensure_no_task_running] Ensuring no task is running before test
+[2026-08-31 10:37:54] [INFO] [pages.base_page] [ensure_no_running_task] Checking if a task is already running
+[2026-08-31 10:37:54] [INFO] [pages.base_page] [ensure_no_running_task] No running task found
+[2026-08-31 10:37:55] [INFO] [conftest] [go_to_task_page] Already on task page: https://airtap.ai/app/t?taskId=task-ibic50i3Y4PCy3yPgI8Sl (title='Greeting and conversational check-in')
+[2026-08-31 10:37:55] [INFO] [tests.tasks.test_task_followup] [test_task_followup] Sending follow-up on the current task
+[2026-08-31 10:37:55] [INFO] [pages.task_page] [wait_for_follow_up_ready] Waiting for follow-up composer
+[2026-08-31 10:37:55] [INFO] [pages.task_page] [enter_follow_up_task] Entering follow-up prompt: 'open device settings'
+[2026-08-31 10:37:55] [INFO] [pages.task_page] [submit_follow_up_task] Submitting follow-up
+[2026-08-31 10:37:55] [INFO] [pages.task_page] [wait_for_task_completed] Waiting for task completion
+[2026-08-31 10:38:06] [INFO] [pages.task_page] [wait_for_task_completed] Task completed
+[2026-08-31 10:38:06] [INFO] [tests.tasks.test_task_followup] [test_task_followup] Follow-up completed on the same task URL
+[2026-08-31 10:38:06] [INFO] [conftest] [ensure_no_task_running] Ensuring no task is running before test
+[2026-08-31 10:38:06] [INFO] [pages.base_page] [ensure_no_running_task] Checking if a task is already running
+[2026-08-31 10:38:06] [INFO] [pages.base_page] [ensure_no_running_task] No running task found
+[2026-08-31 10:38:06] [INFO] [conftest] [go_to_task_page] Already on task page: https://airtap.ai/app/t?taskId=task-ibic50i3Y4PCy3yPgI8Sl (title='Greeting and conversational check-in')
+[2026-08-31 10:38:06] [INFO] [tests.tasks.test_task_link] [test_task_link] Checking task URL: https://airtap.ai/app/t?taskId=task-ibic50i3Y4PCy3yPgI8Sl
+[2026-08-31 10:38:06] [INFO] [tests.tasks.test_task_link] [test_task_link] Task URL is valid
+[2026-08-31 10:38:06] [INFO] [conftest] [ensure_no_task_running] Ensuring no task is running before test
+[2026-08-31 10:38:06] [INFO] [pages.base_page] [ensure_no_running_task] Checking if a task is already running
+[2026-08-31 10:38:06] [INFO] [pages.base_page] [ensure_no_running_task] No running task found
+[2026-08-31 10:38:06] [INFO] [conftest] [go_to_home_page] Navigating to home from https://airtap.ai/app/t?taskId=task-ibic50i3Y4PCy3yPgI8Sl -> https://airtap.ai/app
+[2026-08-31 10:38:06] [INFO] [conftest] [go_to_home_page] Currently at home screen: https://airtap.ai/app
+[2026-08-31 10:38:06] [INFO] [tests.tasks.test_task_model_switch] [test_task_model_switch] Switching the task model on the home composer
+[2026-08-31 10:38:06] [INFO] [pages.task_page] [select_model] Opening model picker
+[2026-08-31 10:38:08] [INFO] [pages.task_page] [switch_model] Total models found: 3 ['Airtap 1.0', 'Airtap 1.0 Flash', 'Airtap 1.1']
+[2026-08-31 10:38:08] [INFO] [pages.task_page] [switch_model] Default selected model is: Airtap 1.0 Flash
+[2026-08-31 10:38:08] [INFO] [pages.task_page] [switch_model] Switching to model: Airtap 1.0
+[2026-08-31 10:38:08] [INFO] [tests.tasks.test_task_model_switch] [test_task_model_switch] Default model: 'Airtap 1.0 Flash', new model: 'Airtap 1.0'
+[2026-08-31 10:38:08] [INFO] [tests.tasks.test_task_model_switch] [test_task_model_switch] Asserting both model names are present
+[2026-08-31 10:38:08] [INFO] [tests.tasks.test_task_model_switch] [test_task_model_switch] Comparing models: Airtap 1.0 Flash vs Airtap 1.0
+[2026-08-31 10:38:08] [INFO] [tests.tasks.test_task_model_switch] [test_task_model_switch] Submitting a task with the switched model
+[2026-08-31 10:38:08] [INFO] [pages.base_page] [enter_task] Entering task prompt: 'Hey, how are you doing today?'
+[2026-08-31 10:38:08] [INFO] [pages.base_page] [submit_task] Submitting task
+[2026-08-31 10:38:08] [INFO] [tests.tasks.test_task_model_switch] [test_task_model_switch] Checking task URL after submit
+[2026-08-31 10:38:09] [INFO] [tests.tasks.test_task_model_switch] [test_task_model_switch] Waiting for task completion
+[2026-08-31 10:38:09] [INFO] [pages.task_page] [wait_for_task_completed] Waiting for task completion
+[2026-08-31 10:38:16] [INFO] [pages.task_page] [wait_for_task_completed] Task completed
+[2026-08-31 10:38:16] [INFO] [tests.tasks.test_task_model_switch] [test_task_model_switch] Confirming task remained on the task URL after completion
+[2026-08-31 10:38:16] [INFO] [tests.tasks.test_task_model_switch] [test_task_model_switch] Model switch and task execution successful: Airtap 1.0 Flash -> Airtap 1.0
+[2026-08-31 10:38:16] [INFO] [conftest] [ensure_no_task_running] Ensuring no task is running before test
+[2026-08-31 10:38:16] [INFO] [pages.base_page] [ensure_no_running_task] Checking if a task is already running
+[2026-08-31 10:38:16] [INFO] [pages.base_page] [ensure_no_running_task] No running task found
+[2026-08-31 10:38:16] [INFO] [conftest] [go_to_home_page] Navigating to home from https://airtap.ai/app/t?taskId=task-cKcmVvNl0KXe2k5fU96xE -> https://airtap.ai/app
+[2026-08-31 10:38:17] [INFO] [conftest] [go_to_home_page] Currently at home screen: https://airtap.ai/app
+[2026-08-31 10:38:17] [INFO] [tests.tasks.test_task_recent] [test_task_recent] Reading recent task titles
+[2026-08-31 10:38:17] [INFO] [pages.base_page] [wait_for_recent_tasks] Waiting for recent tasks to load
+[2026-08-31 10:38:19] [INFO] [tests.tasks.test_task_recent] [test_task_recent] Total recent tasks: 102
+[2026-08-31 10:38:19] [INFO] [tests.tasks.test_task_recent] [test_task_recent] First 10 recent titles: ['Greeting and check-in', 'Greeting and conversational check-in', 'File type identification', 'Weather check conversation', 'Casual greeting check-in', 'Greeting and check-in', 'File type identification', 'Conversational greeting check-in', 'Greeting and check-in', 'Casual greeting and check-in']
+[2026-08-31 10:38:19] [INFO] [pages.task_page] [open_recent_task_title] Opening first recent task: 'Greeting and check-in'
+[2026-08-31 10:38:19] [INFO] [tests.tasks.test_task_recent] [test_task_recent] Open task title: 'Greeting and check-in'
+[2026-08-31 10:38:19] [INFO] [tests.tasks.test_task_recent] [test_task_recent] First recent title: 'Greeting and check-in'
+[2026-08-31 10:38:19] [INFO] [tests.tasks.test_task_recent] [test_task_recent] Open task matches the first Recent entry
+[2026-08-31 10:38:19] [INFO] [conftest] [ensure_no_task_running] Ensuring no task is running before test
+[2026-08-31 10:38:19] [INFO] [pages.base_page] [ensure_no_running_task] Checking if a task is already running
+[2026-08-31 10:38:19] [INFO] [pages.base_page] [ensure_no_running_task] No running task found
+[2026-08-31 10:38:19] [INFO] [conftest] [go_to_home_page] Navigating to home from https://airtap.ai/app/t?taskId=task-cKcmVvNl0KXe2k5fU96xE -> https://airtap.ai/app
+[2026-08-31 10:38:19] [INFO] [conftest] [go_to_home_page] Currently at home screen: https://airtap.ai/app
+[2026-08-31 10:38:19] [INFO] [tests.tasks.test_task_search] [test_task_search] Searching recent tasks
+[2026-08-31 10:38:19] [INFO] [pages.base_page] [search_task] Searching for tasks with text: 'Greeting'
+[2026-08-31 10:38:21] [INFO] [pages.base_page] [wait_for_recent_tasks] Waiting for recent tasks to load
+[2026-08-31 10:38:22] [INFO] [tests.tasks.test_task_search] [test_task_search] Search input: 'Greeting'
+[2026-08-31 10:38:22] [INFO] [tests.tasks.test_task_search] [test_task_search] Total matching recent tasks: 37
+[2026-08-31 10:38:22] [INFO] [tests.tasks.test_task_search] [test_task_search] First 5 matching titles: ['Greeting and check-in', 'Greeting and conversational check-in', 'Casual greeting check-in', 'Greeting and check-in', 'Conversational greeting check-in']
+[2026-08-31 10:38:22] [INFO] [tests.tasks.test_task_search] [test_task_search] Checking title contains search text: 'Greeting and check-in'
+[2026-08-31 10:38:22] [INFO] [tests.tasks.test_task_search] [test_task_search] Checking title contains search text: 'Greeting and conversational check-in'
+[2026-08-31 10:38:22] [INFO] [tests.tasks.test_task_search] [test_task_search] Checking title contains search text: 'Casual greeting check-in'
+[2026-08-31 10:38:22] [INFO] [tests.tasks.test_task_search] [test_task_search] Checking title contains search text: 'Greeting and check-in'
+[2026-08-31 10:38:22] [INFO] [tests.tasks.test_task_search] [test_task_search] Checking title contains search text: 'Conversational greeting check-in'
+[2026-08-31 10:38:22] [INFO] [tests.tasks.test_task_search] [test_task_search] All checked recent titles contain 'Greeting'
+[2026-08-31 10:38:22] [INFO] [conftest] [ensure_no_task_running] Ensuring no task is running before test
+[2026-08-31 10:38:22] [INFO] [pages.base_page] [ensure_no_running_task] Checking if a task is already running
+[2026-08-31 10:38:22] [INFO] [pages.base_page] [ensure_no_running_task] No running task found
+[2026-08-31 10:38:22] [INFO] [conftest] [go_to_home_page] Already on home: https://airtap.ai/app
+[2026-08-31 10:38:22] [INFO] [conftest] [go_to_home_page] Currently at home screen: https://airtap.ai/app
+[2026-08-31 10:38:22] [INFO] [tests.tasks.test_task_stop] [test_task_stop] Stopping a running task
+[2026-08-31 10:38:22] [INFO] [tests.tasks.test_task_stop] [test_task_stop] Creating a new task to stop
+[2026-08-31 10:38:22] [INFO] [pages.base_page] [create_new_task] Tapping 'Create new Task' button
+[2026-08-31 10:38:22] [INFO] [pages.base_page] [enter_task] Entering task prompt: 'Hey! how is the weather today'
+[2026-08-31 10:38:22] [INFO] [pages.base_page] [submit_task] Submitting task
+[2026-08-31 10:38:23] [INFO] [pages.task_page] [wait_for_task_running] Waiting for stop control (task running)
+[2026-08-31 10:38:24] [INFO] [tests.tasks.test_task_stop] [test_task_stop] Stopping the newly started task
+[2026-08-31 10:38:24] [INFO] [pages.base_page] [stop_task] Clicking stop task
+[2026-08-31 10:38:24] [INFO] [pages.base_page] [stop_task] Confirming stop task
+[2026-08-31 10:38:24] [INFO] [pages.task_page] [wait_for_task_stopped] Waiting for task-stopped confirmation
+[2026-08-31 10:38:26] [INFO] [pages.task_page] [wait_for_task_stopped] Task stopped
+[2026-08-31 10:38:26] [INFO] [tests.tasks.test_task_stop] [test_task_stop] Stop control is gone after task was stopped
+[2026-08-31 10:38:26] [INFO] [conftest] [page] Clearing page context

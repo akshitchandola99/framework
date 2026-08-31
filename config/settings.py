@@ -2,7 +2,7 @@ from pathlib import Path
 
 ROOT_DIR = Path(__file__).resolve().parent.parent
 PROFILE_DIR = ROOT_DIR / "chrome-profile"
-TEST_DATA_DIR = ROOT_DIR / "tests" / "tasks" / "test_data"
+TEST_DATA_DIR = ROOT_DIR / "test_data"
 
 APP_URL = "https://airtap.ai/app"
 TASK_URL_PATTERN = r"https://airtap.ai/app/t\?taskId=task-.*"

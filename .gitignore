@@ -1,0 +1,17 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+.pytest_cache/
+
+# Chrome Profile
+chrome-profile/
+
+# HTML-Report
+reports/
+
+
+
